@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Job</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        
+        <div class="nav-left" >
+            <h2>DREAMJOB.</h2>
+            <ul>
+                <li>Home</li>
+                <li>Job Seekers</li>
+                <li>Post A Job</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+
+        <ul>
+            <li><button>Sign In</button></li>
+            <li><button>Free Trial</button></li>
+        </ul>
+         <img src="./img/Group 6002.svg" alt="">
+    </nav>
+
+    <div id="home">
+        <div id="home-left">
+            <div class="center">
+                <h1>DREAM JOBS <br>Waiting For You!</h1>
+                <p>Search and find your dream job is now easier than ever. <br>Just browse a job and apply if your need to.</br></p>
+                <button>Get Started</button>
+            </div>
+        </div>
+        <div id="home-right">
+            <img src="img/1920.png" alt="">
+        </div>
+
+        <div class="home-group">
+            <img src="./img/Group 5999.svg" alt="">
+        </div>
+    </div>
+
+    <div id="catalog">
+        <h2 class="title">Browse Jobs By Category</h2>
+
+        <div class="container">
+            <div class="catalog-item">
+                
+                <div class="catalog-img">
+                    <img src="./img/001-vector-design.svg" alt="">
+                </div>
+
+                <h3 class="title1"> Design & Development </h3>
+
+                <p class="text-l">Design & Development loremdolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+            </div>
+
+            <div class="catalog-item">
+                
+                <div class="catalog-img">
+                    <img src="./img/002-flask.svg" alt="">
+                </div>
+
+                <h3 class="title1"> Science & Technologies </h3>
+
+                <p class="text-l">Design & Development loremdolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+            </div>
+
+            <div class="catalog-item">
+                
+                <div class="catalog-img">
+                    <img src="./img/004-desk.svg" alt="">
+                </div>
+
+                <h3 class="title1">Office Administrative </h3>
+
+                <p class="text-l">Design & Development loremdolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+            </div>
+
+            <div class="catalog-item">
+                
+                <div class="catalog-img">
+                    <img src="./img/003-office-building.svg" alt="">
+                </div>
+
+                <h3 class="title1"> Property Development </h3>
+
+                <p class="text-l">Design & Development loremdolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+            </div>
+
+            <div class="catalog-item">
+                
+                <div class="catalog-img">
+                    <img src="./img/006-briefcase.svg" alt="">
+                </div>
+
+                <h3 class="title1"> Business Development </h3>
+
+                <p class="text-l">Design & Development loremdolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+            </div>
+
+            <div class="catalog-item">
+                
+                <div class="catalog-img">
+                    <img src="./img/005-clipboard.svg" alt="">
+                </div>
+
+                <h3 class="title1"> Admin & Accountant </h3>
+
+                <p class="text-l">Design & Development loremdolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+            </div>
+
+            <div class="catalog-item extra1">
+                
+                <div class="catalog-img">
+                    <img src="./img/001-vector-design.svg" alt="">
+                </div>
+
+                <h3 class="title1"> Design & Development </h3>
+
+                <p class="text-l">Design & Development loremdolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+            </div>
+
+            <div class="catalog-item extra2">
+                
+                <div class="catalog-img">
+                    <img src="./img/001-vector-design.svg" alt="">
+                </div>
+
+                <h3 class="title1"> Design & Development </h3>
+
+                <p class="text-l">Design & Development loremdolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+            </div>
+
+            <div class="catalog-item extra3">
+                
+                <div class="catalog-img">
+                    <img src="./img/001-vector-design.svg" alt="">
+                </div>
+
+                <h3 class="title1"> Design & Development </h3>
+
+                <p class="text-l">Design & Development loremdolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+            </div>
+
+            <button id="catalog-btn">See All Category</button>
+        </div>
+    </div>
+
+    <script>
+        var show = false;
+
+        var showbtn = document.querySelector('#catalog-btn');
+
+        var extra1 = document.querySelector('.extra1');
+        var extra2 = document.querySelector('.extra2');
+        var extra3 = document.querySelector('.extra3');
+        
+
+        showbtn.addEventListener('click', () => {
+            show = true;
+            showf();
+        })
+
+        function showf(){
+            if(show){
+                extra1.style.display = 'flex';
+                extra2.style.display = 'flex';
+                extra3.style.display = 'flex';
+                showbtn.style.display = 'none';
+            }
+        }
+
+    </script>
+</body>
+</html>
