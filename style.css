@@ -229,3 +229,9 @@ nav ul li:last-child button {
 .extra3 {
   display: none;
 }
+#register-pic img {
+  top: 2654px;
+  left: 1095px;
+  width: 570px;
+  height: 634px;
+}
