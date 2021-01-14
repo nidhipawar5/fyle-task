@@ -1,3 +1,3 @@
 # fyle-task
-## Dreamjob usinh html/css
+## Dreamjob using html/css
 ### Project by- Nidhi Pawar
