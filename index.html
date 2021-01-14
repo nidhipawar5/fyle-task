@@ -112,41 +112,42 @@
 
                 <p class="text-l">Design & Development loremdolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
             </div>
-
-            <div class="catalog-item extra1">
+                <div class="catalog-item extra1">
                 
-                <div class="catalog-img">
-                    <img src="./img/001-vector-design.svg" alt="">
+                    <div class="catalog-img">
+                        <img src="./img/001-vector-design.svg" alt="">
+                    </div>
+    
+                    <h3 class="title1"> Extra Category</h3>
+    
+                    <p class="text-l">Design & Development loremdolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
                 </div>
-
-                <h3 class="title1"> Design & Development </h3>
-
-                <p class="text-l">Design & Development loremdolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
-            </div>
-
-            <div class="catalog-item extra2">
-                
-                <div class="catalog-img">
-                    <img src="./img/001-vector-design.svg" alt="">
+    
+                <div class="catalog-item extra2">
+                    
+                    <div class="catalog-img">
+                        <img src="./img/001-vector-design.svg" alt="">
+                    </div>
+    
+                    <h3 class="title1"> Extra Category</h3>
+    
+                    <p class="text-l">Design & Development loremdolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
                 </div>
-
-                <h3 class="title1"> Design & Development </h3>
-
-                <p class="text-l">Design & Development loremdolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
-            </div>
-
-            <div class="catalog-item extra3">
-                
-                <div class="catalog-img">
-                    <img src="./img/001-vector-design.svg" alt="">
+    
+                <div class="catalog-item extra3">
+                    
+                    <div class="catalog-img">
+                        <img src="./img/001-vector-design.svg" alt="">
+                    </div>
+    
+                    <h3 class="title1"> Extra Category</h3>
+    
+                    <p class="text-l">Design & Development loremdolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
                 </div>
-
-                <h3 class="title1"> Design & Development </h3>
-
-                <p class="text-l">Design & Development loremdolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
-            </div>
+            
+            
              
-            <button id="catalog-btn">See All Category</button>
+            <button id="catalog-btn">See All Categories</button>
         </div>
     </div>
 
@@ -161,9 +162,14 @@
         
 
         showbtn.addEventListener('click', () => {
-            show = true;
+            show = !show;
+            if(show){
+                showbtn.innerText="Hide Categories";
+            }else{
+                showbtn.innerText="See All Categories";
+            }
             showf();
-            showbtn.innerText="Hide Categories";
+            
             
         })
        
@@ -174,12 +180,17 @@
                 extra2.style.display = 'flex';
                 extra3.style.display = 'flex';
                 showbtn.style.display = 'inline';
+            }else{
+                extra1.style.display = 'none';
+                extra2.style.display = 'none';
+                extra3.style.display = 'none';
             }
         }
         
         
         
     </script>
+    
 
     <div id="home">
         <div id="home-left">
@@ -215,6 +226,7 @@
                 <div id="rightarrow">
                  <img src="img/Group 6018.svg"alt="">
                 </div>
+                
            </div>
            
         </div>
@@ -228,17 +240,18 @@
          <p>Subscribe to Our Newsletter for <br>the Weekly Updates.</p>
         </div>
         <div id="redbox">
+            <div id="emailtext">
+                <p>Enter your email address here</p>
+            </div> 
             <div id="email">
+                <div id="subbtn">
+                    <div id="subbtntext">
+                        <p>Subscribe</p>
+                    </div>
+                </div>
                 <img src="img/mail.svg"alt="">
-                <div id="emailtext">
-                  <p>Enter your email address here</p>
-                </div>  
-               <div id="subbtn">
-                   <div id="subbtntext">
-                       <p>Subscribe</p>
-                   </div>
-               </div>
             </div>
+            
         </div>
         
     </div>
