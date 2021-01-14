@@ -262,7 +262,227 @@ nav ul li:last-child button {
   width: 80%;
 }
 #review-left img {
-  width: 75%;
+  width: 80%;
   position: absolute;
-  bottom: -10%;
+  padding-bottom: 0.5cm;
+}
+#leftarrow img,
+#rightarrow img {
+  top: 4191px;
+
+  width: 57px;
+  height: 57px;
+  background: transparent url("img/Group 6018.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  float: left;
+  width: 9%;
+  padding: 2%;
+}
+#leftarrow {
+  left: 975px;
+}
+#leftarrow {
+  left: 1062px;
+}
+#arrow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#topdesign img {
+  background: transparent url("img/Group 6022.png") 0% 0% no-repeat padding-box;
+  padding-left: 105%;
+  padding-top: 130%;
+}
+#bottomdesign img {
+  padding-right: 2cm;
+  padding-top: 13.5cm;
+}
+#sidedesign {
+  padding-right: 0.5cm;
+  padding-top: 2.5cm;
+}
+#subscription {
+  width: 100%;
+  height: 85%;
+  background-color: #f8f9fb;
+  display: flex;
+  position: relative;
+}
+#redbox {
+  top: 4753px;
+  left: 615px;
+  width: 1100px;
+  height: 200px;
+  padding: 4cm;
+  align-self: center;
+  align-content: center;
+  background: #fab8c4 0% 0% no-repeat padding-box;
+  box-shadow: 0px 50px 40px #fab8c41a;
+  border-radius: 218px;
+  opacity: 1;
+  margin-left: 6cm;
+}
+#subtext {
+  text-align: center;
+  font: normal normal medium 60px/80px Inter;
+  font-size: 45px;
+  position: absolute;
+  letter-spacing: 0.84px;
+  color: #ffffff;
+  opacity: 1;
+  margin-left: 12cm;
+  margin-top: 4.5cm;
+}
+#email {
+  top: 4753px;
+  left: 615px;
+  width: 690px;
+  height: 60px;
+  margin-top: 1.5cm;
+  margin-left: 0.67cm;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 50px 80px #0000000d;
+  border-radius: 52px;
+  opacity: 1;
+}
+#email img {
+  top: 4781px;
+  left: 645px;
+  width: 30px;
+  height: 24px;
+  background: transparent url("img/mail.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-left: 0.48cm;
+  margin-top: 0.5cm;
+}
+#emailtext {
+  color: var(--unnamed-color-181818);
+  text-align: left;
+  font: normal normal normal 18px/22px Inter;
+  letter-spacing: 0.36px;
+  color: #181818;
+  opacity: 0.5;
+  margin-left: 2cm;
+}
+#subbtn {
+  top: 4753px;
+  left: 1107px;
+  width: 198px;
+  height: 60px;
+  background: #1c2333 0% 0% no-repeat padding-box;
+  border-radius: 52px;
+  opacity: 1;
+  margin-left: 14cm;
+}
+#subbtntext {
+  text-align: center;
+  font: normal normal normal 22px/26px Inter;
+  letter-spacing: 0.44px;
+  color: #ffffff;
+  opacity: 1;
+  padding-top: 0.4cm;
+}
+#details {
+  background: #1b2e3d 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.column {
+  float: left;
+  width: 14%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#row1text {
+  text-align: left;
+  font: normal normal medium 22px/46px Inter;
+  letter-spacing: 0.31px;
+  color: #ffffff;
+  opacity: 1;
+  margin-top: 1.5cm;
+  margin-left: 1cm;
+}
+#columntext {
+  text-align: left;
+  font: normal normal normal 18px/46px Inter;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+  font-size: 13px;
+  margin-left: 1cm;
+}
+#detailright {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+#detailrighttext {
+  text-align: left;
+  font: normal normal normal 32px/38px Inter;
+  letter-spacing: 0.64px;
+  color: #ffda55;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 1.4cm;
+}
+#tagline {
+  text-align: left;
+  font: normal normal normal 20px/33px Inter;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  opacity: 1;
+  font-size: 12px;
+  column-width: 40%;
+  position: absolute;
+  margin-top: 2mm;
+}
+#twitter img {
+  top: 5302px;
+  left: 1215px;
+  width: 25px;
+  height: 20px;
+  background: transparent url("img/twitter.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#google img {
+  top: 5302px;
+  left: 1281px;
+  width: 30px;
+  height: 19px;
+  background: transparent url("img/google plus.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#facebook img {
+  top: 5302px;
+  left: 1352px;
+  width: 11px;
+  height: 22px;
+  background: transparent url("img/facebook.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#label {
+  background: #101e2a 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 50px;
+}
+.columnimg {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.rowimg::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#copytext {
+  text-align: center;
+  font: normal normal normal 18px/46px Inter;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+  opacity: 1;
 }
